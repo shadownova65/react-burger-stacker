@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70vw;
+  margin: auto;
+}
+
+.pane {
+  font-size: 16px;
+  width: 20vw;
+  border: grey solid 3px;
+  border-radius: 5px;
+  margin-top: 10vh;
+  min-height: 60vh;
+  padding: 1em;
+
+}
+
+input {
+  width: 90%;
+}
+
+.pane div {
+  margin: 2px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(145, 145, 145);
+  font-weight: bold;
+  border: lightgrey solid 1.5px;
+  border-radius: 3px;
+}
+.stack div {
+  border: none;
+  padding: 3px;
+  margin: 0;
+}
+.ingredient button {
+  margin: 2px 1em;
+}
